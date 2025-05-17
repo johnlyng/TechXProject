@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TechXProject
+  gitServerName: myGithub
+  gitUrl: https://github.com/johnlyng
+  gitUsername: johnlyng
+  gitBranch: main
