@@ -14,16 +14,12 @@ packages:
   gitUsername: johnlyng
   gitBranch: main
 services:
-- serviceName: project.techx.integrations:myFirstEdgeFlow
+- serviceName: project.techx.integrations:TestService
   packages:
   - name: TechXProject
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
-- serviceName: pub.string:concat
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2043
 - serviceName: OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData
   packages:
   - name: OpenWeatherClient
@@ -37,6 +33,16 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2043
 - serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: project.techx.integrations:myFirstEdgeFlow
+  packages:
+  - name: TechXProject
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: pub.string:concat
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
