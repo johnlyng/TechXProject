@@ -579,7 +579,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">med Temperatur på %/200/200/main/temp%</value>
+  <value name="xml">med Temperatur på %200/200/name%</value>
 </Values>
 </DATA>
 </MAPSET>
