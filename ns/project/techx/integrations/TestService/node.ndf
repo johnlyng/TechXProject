@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john.arne.lyngstad@avella.no</value>
-    <value name="lastModifiedDate">1747599150797</value>
+    <value name="lastModifiedDate">1747599229777</value>
     <value name="displayName">TestService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
