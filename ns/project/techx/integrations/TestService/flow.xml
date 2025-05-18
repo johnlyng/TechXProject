@@ -1144,7 +1144,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">med Temperatur på %num% grader</value>
+  <value name="xml">med Temperatur på %temp%  grader</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -1154,4 +1154,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>
