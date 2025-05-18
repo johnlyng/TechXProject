@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/johnlyng
   gitUsername: johnlyng
   gitBranch: main
+- name: OpenWeatherClient
+  gitServerName: myGithub
+  gitUrl: https://github.com/rahuldemocenter
+  gitUsername: johnlyng
+  gitBranch: main
 services:
 - serviceName: project.techx.integrations:myFirstEdgeFlow
   packages:
