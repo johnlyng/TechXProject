@@ -32,6 +32,23 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
         </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">Place</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -79,9 +96,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">john.arne.lyngstad@avella.no</value>
-    <value name="createdDate">1747515008307</value>
-    <value name="lastModifiedDate">1747515008307</value>
+    <value name="lastModifiedBy">john.arne.lyngstad@avella.no</value>
+    <value name="lastModifiedDate">1747597369053</value>
     <value name="displayName">myFirstEdgeFlow</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -104,6 +120,30 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">OpenWeatherClient</value>
+          <value name="groupName">OpenWeatherClient;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData</value>
+          <value name="serviceName">OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData</value>
+          <value name="displayName">CurrentWeatherData</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
