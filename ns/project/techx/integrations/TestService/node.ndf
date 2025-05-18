@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">john.arne.lyngstad@avella.no</value>
-    <value name="createdDate">1747597947041</value>
-    <value name="lastModifiedDate">1747597947041</value>
+    <value name="lastModifiedBy">john.arne.lyngstad@avella.no</value>
+    <value name="lastModifiedDate">1747598197305</value>
     <value name="displayName">TestService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -73,8 +72,41 @@
         <number name="lineNumberForDebug" type="Long">1</number>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="name">REPEAT</value>
+        <value name="itemType">CONTROLS</value>
+        <record name="in_array" javaclass="com.wm.util.Values">
+          <value name="name">/200/200/weather</value>
+          <value name="type">recref</value>
+          <value name="dim">1</value>
+          <value name="rec_ref">OpenWeatherClient.REST.openweatherclient_.docTypes:Weather</value>
+          <Boolean name="isLink">true</Boolean>
+          <value name="field_name">weather</value>
+          <value name="flow_path">/weather;4;1;OpenWeatherClient.REST.openweatherclient_.docTypes:Weather</value>
+        </record>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+      </record>
+      <record name="/1/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">String</value>
+          <value name="groupName">string</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">concat</value>
+          <value name="serviceName">pub.string:concat</value>
+          <Boolean name="enabled">true</Boolean>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
       </record>
     </record>
   </record>
