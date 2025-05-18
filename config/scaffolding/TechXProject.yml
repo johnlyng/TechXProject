@@ -36,13 +36,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
+- serviceName: pub.string:concat
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
 - serviceName: project.techx.integrations:myFirstEdgeFlow
   packages:
   - name: TechXProject
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
-- serviceName: pub.string:concat
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2043
