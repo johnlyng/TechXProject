@@ -50,3 +50,7 @@ services:
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
