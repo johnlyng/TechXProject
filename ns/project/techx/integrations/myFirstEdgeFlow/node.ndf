@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john.arne.lyngstad@avella.no</value>
-    <value name="lastModifiedDate">1747644227717</value>
+    <value name="lastModifiedDate">1747644370874</value>
     <value name="displayName">myFirstEdgeFlow</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -236,6 +236,8 @@
           <value name="serviceName">pub.string:concat</value>
           <value name="transformerSupport">true</value>
         </record>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
       </record>
       <record name="/4/1" javaclass="com.wm.util.Values">
       </record>

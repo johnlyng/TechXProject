@@ -865,7 +865,8 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">The weather is </value>
+  <value name="xml">
+The weather is </value>
 </Values>
 </DATA>
 </MAPSET>
@@ -1618,6 +1619,16 @@
 
 <MAPCOPY FROM="/message;1;0" TO="/inString1;1;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="false" FIELD="/inString2;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">
+The temperature is : %temp%</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="INVOKEOUTPUT">
