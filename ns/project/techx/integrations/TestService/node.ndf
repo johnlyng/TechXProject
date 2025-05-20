@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john.arne.lyngstad@avella.no</value>
-    <value name="lastModifiedDate">1747599288957</value>
+    <value name="lastModifiedDate">1747738523687</value>
     <value name="displayName">TestService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +70,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">REPEAT</value>
@@ -86,6 +88,7 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/1/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -108,6 +111,8 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">3</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1.0</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -118,9 +123,10 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">numericFormat</value>
-          <value name="serviceName">pub.string:numericFormat</value>
           <value name="transformerSupport">true</value>
+          <value name="displayName">objectToString</value>
+          <value name="serviceName">pub.string:objectToString</value>
+          <Boolean name="enabled">true</Boolean>
         </record>
         <number name="ui_step_index" type="Long">4</number>
         <value name="nodePathNew">2</value>
@@ -129,6 +135,8 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -150,10 +158,13 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">3</value>
       </record>
       <record name="/4" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
+        <value name="nodePathForDebug">4</value>
       </record>
     </record>
   </record>
