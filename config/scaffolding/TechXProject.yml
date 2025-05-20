@@ -14,6 +14,7 @@ packages:
   gitUsername: johnlyng
   gitBranch: main
 - name: AvellaClientUtil
+  version: "1.0"
   gitServerName: myGithub
   gitUrl: https://github.com/johnlyng
   gitUsername: johnlyng
@@ -22,6 +23,8 @@ services:
 - serviceName: project.techx.integrations:TestService
   packages:
   - name: TechXProject
+    version: "1.0"
+  - name: AvellaClientUtil
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
@@ -45,7 +48,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
-- serviceName: pub.string:numericFormat
+- serviceName: pub.string:objectToString
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
@@ -53,9 +56,7 @@ services:
   packages:
   - name: TechXProject
     version: "1.0"
+  - name: AvellaClientUtil
+    version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
-- serviceName: pub.string:objectToString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2043
