@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: johnlyng
   gitBranch: main
+- name: AvellaClientUtil
+  gitServerName: myGithub
+  gitUrl: https://github.com/johnlyng
+  gitUsername: johnlyng
+  gitBranch: main
 services:
 - serviceName: project.techx.integrations:TestService
   packages:
